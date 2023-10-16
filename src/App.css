@@ -24,6 +24,8 @@
   color: white;
   position: absolute;
   width: 100%;
+  font-size: 80px;
+  font-weight: bold;
 }
 
 .App-link {
@@ -38,3 +40,29 @@
     transform: rotate(360deg);
   }
 }
+
+pre {
+  position: relative;
+  z-index: 2;
+  /* color: white; */
+  background: #f3f3f3b0;
+  padding: 10px;
+  display: inline-block;
+  font-size: 16px;
+  &.left {
+    position: absolute;
+    left: 82px;
+    bottom:40px;
+    margin: auto;
+    transform-origin: left;
+    transform: rotate(-90deg);
+  }
+  &.right {
+    position: absolute;
+    left: calc(100vw - 82px);
+    bottom:40px;
+    transform-origin: left;
+    transform: rotate(-90deg);
+  }
+}
+

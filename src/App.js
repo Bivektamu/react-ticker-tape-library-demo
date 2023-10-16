@@ -11,9 +11,14 @@ function App() {
       </header>
       <main>
           <Ticker text= {"Hi there! I am ticker tape soley build for react projects."} animationSpeed = {20} bg= {'red'} color={'white'}  />
+
           <Ticker text='Hi there! I am another ticker tape. Look I can be placed in bottom.' animationSpeed = {20} bg= {'yellow'} color={'black'} fix={"bottom"} />
+          
+
           <Ticker text='Hi there! I am third ticker tape placed on left side.' animationSpeed = {15} bg= {'lightgreen'} color={'red'} fix={"left"} />
-          <Ticker text='Hi there! I am fourth and last ticker tape placed on right side.' animationSpeed = {25} bg= {'blue'} color={'white'} fix={"right"} />
+
+          <Ticker text='Hi there! I am fourth and last ticker tape placed on right side.' animationSpeed = {10} bg= {'blue'} color={'white'} fix={"right"} />
+         
       </main>
     </div>
   );
